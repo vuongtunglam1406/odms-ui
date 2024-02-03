@@ -1,0 +1,14 @@
+footer {
+    position: fixed; /* Đặt vị trí cố định cho footer */
+    bottom: 0; /* Đặt footer ở dưới cùng của trình duyệt */
+    left: 0; /* Đặt footer ở mép trái của trình duyệt */
+    width: 100%; /* Chiều rộng của footer là 100% của trình duyệt */
+    background-color: #333; /* Màu nền của footer */
+    color: #fff; /* Màu chữ của footer */
+    padding: 20px 0; /* Khoảng cách giữa footer và nội dung bên trong */
+    text-align: center; /* Căn giữa nội dung của footer */
+}
+
+h2 {
+    margin: 0; /* Loại bỏ khoảng trắng xung quanh văn bản */
+}

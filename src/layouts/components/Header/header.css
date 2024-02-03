@@ -1,0 +1,25 @@
+.wrapper {
+    background-color: #f0f0f0; /* Màu nền của header */
+    padding: 20px 0; /* Khoảng cách giữa header và nội dung bên trong */
+}
+
+.inner {
+    display: flex; /* Sắp xếp các phần tử con theo hàng ngang */
+    justify-content: space-between; /* Căn các phần tử con ở hai đầu của header */
+    align-items: center; /* Căn các phần tử con theo trục dọc */
+    max-width: 1200px; /* Chiều rộng tối đa của header */
+    margin: 0 auto; /* Căn giữa header */
+}
+
+.logo-link {
+    text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+    color: #333; /* Màu chữ của liên kết */
+}
+
+.logo-link:hover {
+    color: #666; /* Màu chữ của liên kết khi di chuột qua */
+}
+
+h3 {
+    margin: 0; /* Loại bỏ khoảng trắng xung quanh văn bản */
+}
